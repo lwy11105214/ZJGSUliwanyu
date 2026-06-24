@@ -1520,7 +1520,7 @@
 
       <noscript>
         <p style="text-align:center; margin:1em;">
-          若问卷未正常显示，请<a href="https://v.wjx.cn/vm/wdGhJnJ.aspx">点击此处</a>打开问卷。
+          若问卷未正常显示，请<a href="https://v.wjx.cn/vm/OrQpZZ6.aspx">点击此处</a>打开问卷。
         </p>
       </noscript>
     </div>
@@ -1546,13 +1546,13 @@
         // 抹掉已渲染的整页内容；动态 appendChild 会将 document.write 输出定向到当前容器
         var s = document.createElement('script');
         s.type = 'text/javascript';
-        s.src = 'https://v.wjx.cn/handler/jqemed.ashx?activity=wdGhJnJ&width=750&source=iframe&sm=t&height=2';
+        s.src = 'https://v.wjx.cn/handler/jqemed.ashx?activity=OrQpZZ6&width=750&source=iframe&sm=t&height=2';
         s.async = false;
         s.onerror = function() {
           // 加载失败时动态创建兜底提示节点
           var errTip = document.createElement('p');
           errTip.style.cssText = 'text-align:center; color:#c00; padding:2em 1em; margin:0;';
-          errTip.innerHTML = '问卷加载失败，请<a href="https://v.wjx.cn/vm/wdGhJnJ.aspx" target="_blank" rel="noopener noreferrer">点击此处</a>在新窗口打开问卷。';
+          errTip.innerHTML = '问卷加载失败，请<a href="https://v.wjx.cn/vm/OrQpZZ6.aspx" target="_blank" rel="noopener noreferrer">点击此处</a>在新窗口打开问卷。';
           questionnaireContainer.appendChild(errTip);
         };
         questionnaireContainer.appendChild(s);
